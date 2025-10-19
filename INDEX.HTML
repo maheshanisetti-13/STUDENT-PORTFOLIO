@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHESH ANISETTI</title>
+    <link rel="stylesheet" href="/HTML/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <header class="header" id="home">
+    <img src="/imagesg/1.2.jpg" alt="Profile Photo" class="profile-photo" />
+    <h1 class="name">MAHESH ANISETTI</h1>
+    <p class="about">
+      Experienced developer with expertise in frontend and backend technologies. Passionate about building performant and beautiful web applications.
+    </p>
+    <nav class="social-links">
+      <a href="https://www.instagram.com/_heart__hacker_mahesh_?igsh=dDQ4bG5uMGoxb3di&utm_source=ig_contact_invite " target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="education-skills fade-in" id="education-skills">
+      <h2>Education & Skills</h2>
+      <div class="edu-skill-grid">
+        <div>
+          <h3>BACHELOR OF TECHNOLOGY</h3>
+          <ul>
+            <li>CIVIL ENGINEERING</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Skills</h3>
+          <ul>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects fade-in" id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <img src="#" alt="Project 1 Screenshot" />
+          <div class="project-info">
+            <h3>Project One</h3>
+            <p>A responsive web app with React and Node.js backend.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+
+    <section class="contact fade-in" id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+          <small class="error-message"></small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required />
+          <small class="error-message"></small>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+          <small class="error-message"></small>
+        </div>
+        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+        <p id="formStatus" class="form-status"></p>
+      </form>
+    </section>
+
+    <section class="resume-section fade-in" id="resume">
+      <a href="/imagesg/Mahesh_Resume_SW[1].pdf" download class="resume-button" aria-label="Download Resume">
+        <span>Download Resume</span>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 12v8m0 0l-4-4m4 4l4-4M12 4v8" />
+        </svg>
+      </a>
+    </section>
+  </main>
+
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="/script.js"></script>
+</body>
+</html>
